@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+}
+header{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: red;
+}
+header h1{
+    color: white;
+}
+header img{
+    width: 150 px;
+    height: 150 px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+section{
+    margin: 10px;
+}
+section#bio,section#work{
+    background-color: black;
+    padding: 15px;
+}
+#bio{
+    color: red;
+}
+#bio h2{
+    color: white;
+}
+#work h2{
+    color: white;
+}
+.project{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 200px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: linear-gradient(to right,red,white,green);
+}
+.project:hover{
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+#project1{
+    background: url();
+    background-size: cover;
+    background-position: center;
+}
+.project2{
+    background: url();
+    background-size: cover;
+}
+.project3{
+    background: url();
+    background-size: cover;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
